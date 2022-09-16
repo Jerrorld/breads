@@ -1,7 +1,5 @@
 const React = require('react')
 
-function Default(html) {
-  return (
     function Default(html) {
       return (
         <html>
@@ -24,8 +22,5 @@ function Default(html) {
         </html>
       )
     }
-    
-  )
-}
 
 module.exports = Default
