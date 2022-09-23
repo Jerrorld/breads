@@ -12,8 +12,6 @@ breads.get('/', (req, res) => {
   // res.send(Bread)
 })
 
-module.exports = breads
-
 // NEW
 breads.get('/new', (req, res) => {
   res.render('new')
@@ -70,3 +68,4 @@ breads.put('/:arrayIndex', (req, res) => {
   res.redirect(`/breads/${req.params.arrayIndex}`)
 })
 
+module.exports = breads
